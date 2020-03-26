@@ -1,0 +1,49 @@
+*,
+*::before,
+*::after {
+  box-sizing: inherit; }
+
+html {
+  box-sizing: border-box;
+  font-size: 62.5%; }
+
+body {
+  font-family: 'Gotu', sans-serif;
+  min-height: 100vh;
+  margin: 1rem; }
+
+a {
+  text-decoration: none; }
+
+.container {
+  display: grid;
+  grid-template-rows: 6rem 80vh; }
+
+.navbar {
+  background-image: linear-gradient(to right bottom, #2b580c, #d8ebb5);
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 1rem; }
+
+a {
+  color: #faf9f9;
+  font-size: 1.4rem;
+  transition: all .2s; }
+  a:hover {
+    transform: translateY(-2px); }
+
+.heading__burger {
+  background-image: url("../img/burger-beer.jpg");
+  background-size: cover;
+  clip-path: polygon(0 0, 0% 95%, 95% 0);
+  height: 100%;
+  color: #fff; }
+
+.heading__beer {
+  background-image: url("../img/beer-1.jpg");
+  background-size: cover;
+  clip-path: polygon(100% 0, 0 100%, 100% 100%);
+  height: 100%; }

@@ -1,0 +1,18 @@
+.heading {
+
+    &__burger {
+        background-image: url("../img/burger-beer.jpg");
+        background-size: cover;
+        clip-path: polygon(0 0, 0% 95%, 95% 0);
+        height: 100%;
+    
+        color: #fff;
+    }
+
+    &__beer {
+        background-image: url("../img/beer-1.jpg");
+        background-size: cover;
+        clip-path: polygon(100% 0, 0 100%, 100% 100%);
+        height: 100%;
+    }
+}
