@@ -7,6 +7,9 @@
     justify-content: space-between;
     align-items: center;
     padding: 0 1rem;
+
+    grid-row: nav-start / nav-end;
+    grid-column: 1 / -1;
 }
 
 a {
