@@ -1,9 +1,18 @@
 .gallery {
     background-color: $color-primary;
-    max-height: 100vh;
+    // max-width: 1100px;
+    width: 1100px;
+    max-height: 95vh;
+    height: 100%;
+    // width: 100%;
+    // grid-row: 2 / 3;
     display: grid;
-    grid-template-rows: repeat(6, 12vw);
+    grid-template-rows: repeat(6, 1fr);
     grid-template-columns: repeat(8, 1fr);
+    // justify-self: center;
+    // align-self: center;
+    border: 1rem solid #fff;
+    // overflow: hidden;
 
     grid-gap: 1rem;
     padding: 1rem;
